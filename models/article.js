@@ -12,7 +12,7 @@ const ArticleSchema = new Schema({
         type: String,
         required: true
     },
-    //l ink to article
+    //link to article
     link: {
         type: String,
         unique: true,
@@ -24,7 +24,7 @@ const ArticleSchema = new Schema({
         required: true,
         default: false
     },
-    //d elete article or not
+    //delete article or not
     deleted: {
         type: Boolean,
         required: true,
